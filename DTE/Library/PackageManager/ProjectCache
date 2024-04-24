@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638494495082140487
-    m_Hash: 1430265062
+      ticks: 638494572660873847
+    m_Hash: 4259838128
   m_LockFileStatus:
     m_FilePath: C:/Users/admin/Desktop/Github/DTE/DTE/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638494495082249274
-    m_Hash: 1308622898
+      ticks: 638494572660883818
+    m_Hash: 924794439
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
