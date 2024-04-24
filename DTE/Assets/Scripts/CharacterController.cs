@@ -12,6 +12,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float speed = 10f;    // 이동 속도
     private bool isJump = false;                  // 점프 상태
     private bool isLadder = false;                // 사다리에 있는지 여부
+    private float ladderX;                        // 사다리에서 W를 누를 때의 X 좌표
 
     private void Awake()
     {
@@ -53,6 +54,17 @@ public class CharacterController : MonoBehaviour
             float ver = Input.GetAxis("Vertical");
             rb.gravityScale = 0; // 중력을 0으로 설정하여 중력의 영향을 받지 않도록 합니다.
             rb.velocity = new Vector2(rb.velocity.x, ver * speed); // 수직 이동
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                // W 키를 누를 때의 X 좌표를 저장합니다.
+                ladderX = transform.position.x;
+            }
+            if (Input.GetKey(KeyCode.W))
+            {
+                // W 키를 누른 상태에서 좌우로 이동할 때, 저장된 X 좌표에서 +-1 범위 내에서만 이동하도록 제한합니다.
+                float newX = ladderX + (Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime);
+                transform.position = new Vector2(Mathf.Clamp(newX, ladderX - 1, ladderX + 1), transform.position.y);
+            }
         }
         else
         {
@@ -68,6 +80,7 @@ public class CharacterController : MonoBehaviour
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (jumpFallMultiplier - 1) * Time.deltaTime;
         }
+
     }
 
     private void Jump()
