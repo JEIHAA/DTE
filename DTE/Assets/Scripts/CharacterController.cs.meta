@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:DTE/Assets/Scripts/CharacterController.cs.meta
+guid: 2bc2e3f214ec95b4bb359389d0f4acfd
+========
+guid: e490f8c9964328242a31303d2d6d2433
+>>>>>>>> Son:DTE/Assets/Scripts/BrokenBlock.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
