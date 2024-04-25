@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:DTE/Assets/Scripts.meta
 guid: 46d28e3c9d36cef45b89ef51c9e00f62
+========
+guid: f54d1bd14bd3ca042bd867b519fee8cc
+>>>>>>>> Son:DTE/Assets/TextMesh Pro.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

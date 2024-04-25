@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:DTE/Assets/Scripts/CommandUI.cs.meta
-guid: 8a54abdac8a54d347b7a11964a0db7fb
-========
-guid: f7385cea86a67ee4d8762ea51c9656b0
->>>>>>>> Son:DTE/Assets/Scripts/ChangeTile.cs.meta
+guid: 7d5b19f0c9c79c744b45a94708f3107c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
