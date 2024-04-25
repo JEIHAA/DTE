@@ -5,8 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hole
-  - BackGround
   - Ladder
+  - BackGroundSun
+  - BackGroundMoon
   layers:
   - Default
   - TransparentFX

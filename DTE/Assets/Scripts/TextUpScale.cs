@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class TextUpScale : MonoBehaviour
 {
-    private float maxSize = 1.2f;
-    private float minSize = 0.8f;
+    private float maxSize = 1.1f;
+    private float minSize = 0.9f;
     private float defaultTransSize = 1f;
     private float transSize = 0.5f;
     private bool isScalingUp = true;
