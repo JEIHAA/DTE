@@ -17264,7 +17264,7 @@ MonoBehaviour:
   speed: 6
   jumpHeight: 3
   landingSpeed: -12
-  flyingTime: 3
+  flyingTime: 2.45
   state: 0
 --- !u!212 &685551852
 SpriteRenderer:

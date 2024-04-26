@@ -60,41 +60,22 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Stage.cs" />
-    <Compile Include="Assets\Scripts\TitleTextUI.cs" />
-    <Compile Include="Assets\Scripts\BrokenBlock.cs" />
     <Compile Include="Assets\Scripts\GameScripts\PlayerState.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CharacterController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\CommandUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ParallaxScroll.cs" />
     <Compile Include="Assets\Scripts\GameScripts\BreakBlock.cs" />
-    <Compile Include="Assets\Scripts\ParallaxScroll.cs" />
-    <Compile Include="Assets\Scripts\ChangeTile.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ButtonHolder.cs" />
-    <Compile Include="Assets\Scripts\PlayerState.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ScenesManager.cs" />
-    <Compile Include="Assets\Scripts\ChangeActive.cs" />
-    <Compile Include="Assets\Scripts\CharacterStateManager.cs" />
-    <Compile Include="Assets\Scripts\ChangeSprite.cs" />
-    <Compile Include="Assets\Scripts\CharacterController.cs" />
-    <Compile Include="Assets\Scripts\DieCanversController.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\SelectStageText.cs" />
     <Compile Include="Assets\Scripts\UIScripts\TextUpScale.cs" />
     <Compile Include="Assets\Scripts\UIScripts\DieCanversController.cs" />
-    <Compile Include="Assets\Scripts\CommandUI.cs" />
-    <Compile Include="Assets\Scripts\ScenesManager.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ObstacleController.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\ButtonHolder.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CharacterStateManager.cs" />
-    <Compile Include="Assets\Scripts\TextUpScale.cs" />
     <Compile Include="Assets\Scripts\UIScripts\Stage.cs" />
-    <Compile Include="Assets\Scripts\ObstacleController.cs" />
-    <Compile Include="Assets\Scripts\SelectStageText.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ChangeActive.cs" />
     <Compile Include="Assets\Scripts\UIScripts\TitleTextUI.cs" />
-    <Compile Include="Assets\Scripts\PlatformIgnore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
