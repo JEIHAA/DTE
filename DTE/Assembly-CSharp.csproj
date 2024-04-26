@@ -60,16 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Stage.cs" />
     <Compile Include="Assets\Scripts\TitleTextUI.cs" />
-    <Compile Include="Assets\Scripts\CommandUI.cs" />
     <Compile Include="Assets\Scripts\BrokenBlock.cs" />
+    <Compile Include="Assets\Scripts\ParallaxScroll.cs" />
+    <Compile Include="Assets\Scripts\PlayerState.cs" />
+    <Compile Include="Assets\Scripts\ChangeActive.cs" />
+    <Compile Include="Assets\Scripts\CharacterStateManager.cs" />
+    <Compile Include="Assets\Scripts\ChangeSprite.cs" />
+    <Compile Include="Assets\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\DieCanversController.cs" />
+    <Compile Include="Assets\Scripts\CommandUI.cs" />
     <Compile Include="Assets\Scripts\ScenesManager.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ButtonHolder.cs" />
     <Compile Include="Assets\Scripts\TextUpScale.cs" />
-    <Compile Include="Assets\Scripts\ParallaxScroll.cs" />
-    <Compile Include="Assets\Scripts\ChangeTile.cs" />
     <Compile Include="Assets\Scripts\ObstacleController.cs" />
-    <Compile Include="Assets\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\SelectStageText.cs" />
     <Compile Include="Assets\Scripts\PlatformIgnore.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -946,6 +953,14 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

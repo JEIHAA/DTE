@@ -8,6 +8,9 @@ TagManager:
   - Ladder
   - BackGroundSun
   - BackGroundMoon
+  - Ground
+  - Hot
+  - Ice
   layers:
   - Default
   - TransparentFX
