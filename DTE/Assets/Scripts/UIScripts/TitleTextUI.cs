@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 
 public class TitleTextUI : MonoBehaviour
-{
+{   
     [SerializeField] private TMP_Text titleText;
     [SerializeField] private float speed = 50f;
     [SerializeField] private float startY = 500f;
@@ -18,7 +18,7 @@ public class TitleTextUI : MonoBehaviour
         isFalling = true;
     }
 
-    private void Update()
+    public void TitleDown()
     {
         if (isFalling)
         {

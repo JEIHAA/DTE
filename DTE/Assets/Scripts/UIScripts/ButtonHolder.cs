@@ -12,7 +12,7 @@ public class ButtonHolder : MonoBehaviour
         {
             Stage stage = stages[i].GetComponent<Stage>();
             if (stage != null)
-            {
+            {   
                 // 전 스테이지의 isClear가 true이면
                 if (i > 0 && stages[i - 1].GetComponent<Stage>().isClear)
                 {

@@ -15,7 +15,7 @@ public class SelectStageText : MonoBehaviour
         pos = startPos;
     }
 
-    private void Update()
+    public void PingPong()
     {
         pos = startPos + Mathf.PingPong(Time.time * speed, distance); // Mathf.PingPong을 이용해 왕복운동을 합니다.
 

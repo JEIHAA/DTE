@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8B575DB5-60BC-D0D2-C4D4-2FD91CFB77A8}</ProjectGuid>
+    <ProjectGuid>{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,21 +61,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameScripts\PlayerState.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\SelectStageManager.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CharacterController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\CommandUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ParallaxScroll.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameScripts\BreakBlock.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ButtonHolder.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ScenesManager.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\TextUpScale.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\SelectStageText.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\TextUpScale.cs" />
     <Compile Include="Assets\Scripts\UIScripts\DieCanversController.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\BreakBlockHolder.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ObstacleController.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CharacterStateManager.cs" />
     <Compile Include="Assets\Scripts\UIScripts\Stage.cs" />
-    <Compile Include="Assets\Scripts\GameScripts\ChangeActive.cs" />
     <Compile Include="Assets\Scripts\UIScripts\TitleTextUI.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\LayerHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -431,18 +434,6 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.GradleProject">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
