@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\GameScripts\BreakBlock.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ButtonHolder.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ScenesManager.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\MonsterState.cs" />
     <Compile Include="Assets\Scripts\UIScripts\TextUpScale.cs" />
     <Compile Include="Assets\Scripts\GameScripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\SelectStageText.cs" />

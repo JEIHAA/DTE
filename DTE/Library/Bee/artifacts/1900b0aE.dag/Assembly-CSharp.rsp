@@ -339,6 +339,7 @@
 "Assets/Scripts/GameScripts/ChangeActive.cs"
 "Assets/Scripts/GameScripts/CharacterController.cs"
 "Assets/Scripts/GameScripts/CharacterStateManager.cs"
+"Assets/Scripts/GameScripts/MonsterState.cs"
 "Assets/Scripts/GameScripts/ObstacleController.cs"
 "Assets/Scripts/GameScripts/PlayerState.cs"
 "Assets/Scripts/UIScripts/ButtonHolder.cs"
