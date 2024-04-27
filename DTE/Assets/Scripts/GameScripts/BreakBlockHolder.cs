@@ -33,4 +33,15 @@ public class BreakBlockHolder : MonoBehaviour
             }
         }
     }
+
+    public void ChangeSpeed(float _value)
+    {
+        for(int i = 0;i < breakBlocks.Length; i++)
+        {
+            if (breakBlocks[i]!= null)
+            {
+                breakBlocks[i].ChangeSpeed(_value);
+            }
+        }
+    }
 }

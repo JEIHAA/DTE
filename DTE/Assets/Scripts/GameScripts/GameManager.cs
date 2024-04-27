@@ -11,22 +11,35 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject iceActive = null;
     [SerializeField] private GameObject hotBackGround = null;
     [SerializeField] private GameObject iceBackGround = null;
-    [Space(10f)]
+    [Space(5f)]
     [Header("부서지는 벽 홀더")]
     [SerializeField] private BreakBlockHolder breakBlockHolder;
-    [Space(10f)]
+    [SerializeField] private float breakBlockDropSpeed = 10f;
+    [Space(5f)]
+    [Header("떨어지는 가시")]
+    [SerializeField] private DropThronHolder dropThronHolder;
+    [SerializeField] private float thronDropSpeed = 2f;
+    [Space(5f)]
     [Header("카메라 오브젝트")]
     [SerializeField] private CameraController cameraController;
-    [Space(10f)]
+    [Space(5f)]
     [Header("사망씬 오브젝트")]
     [SerializeField] private DieCanversController dieCanversController;
-    [Space(10f)]
+    [Space(5f)]
     [Header("뒷 배경 움직임")]
     [SerializeField] private LayerHolder[] layerHolders;
-
+    
+    private void FixedUpdate()
+    {
+        breakBlockHolder.ChangeSpeed(breakBlockDropSpeed);
+        Debug.Log(breakBlockDropSpeed);
+        dropThronHolder.ChangeGravity(thronDropSpeed);
+        Debug.Log(thronDropSpeed);
+    }
 
     private void Update()
     {
+        dropThronHolder.MovingThron();
         //뒷 배경 움직임
         if (weather)
         {
@@ -35,7 +48,6 @@ public class GameManager : MonoBehaviour
             hotBackGround.SetActive(false);
             iceActive.SetActive(true);
             hotActive.SetActive(false);
-
         }
         else
         {
@@ -66,11 +78,13 @@ public class GameManager : MonoBehaviour
         if (weather)
         {
             breakBlockHolder.ChangeHotWeather();
+            dropThronHolder.ChangeHotWeather();
             weather = false;
         }
         else
         {
             breakBlockHolder.ChangeColdWeather();
+            dropThronHolder.ChangeColdWeather();
             weather = true;
         }
     }

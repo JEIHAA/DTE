@@ -339,6 +339,8 @@
 "Assets/Scripts/GameScripts/CameraController.cs"
 "Assets/Scripts/GameScripts/CharacterController.cs"
 "Assets/Scripts/GameScripts/CharacterStateManager.cs"
+"Assets/Scripts/GameScripts/DropThron.cs"
+"Assets/Scripts/GameScripts/DropThronHolder.cs"
 "Assets/Scripts/GameScripts/GameManager.cs"
 "Assets/Scripts/GameScripts/ObstacleController.cs"
 "Assets/Scripts/GameScripts/PlayerState.cs"
