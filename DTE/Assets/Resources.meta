@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:DTE/Assets/Resources.meta
-guid: 99e0aec3967652c429d1c501283e8a10
-========
-guid: 46d28e3c9d36cef45b89ef51c9e00f62
->>>>>>>> Son:DTE/Assets/Scripts.meta
+guid: 6dc6380ccf329314c9233d064d43c5e3
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
