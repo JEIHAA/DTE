@@ -345,6 +345,47 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42072678, y: 6.7504354}
   m_EdgeRadius: 0
+--- !u!1 &217404374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8623710493901707833, guid: e3bbcac7c33799740bd11331ecc3a9ff, type: 3}
+  m_PrefabInstance: {fileID: 2843260263241827864}
+  m_PrefabAsset: {fileID: 0}
+--- !u!19719996 &217404378
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217404374}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &234343413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2186,47 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 495265236}
   m_SourcePrefab: {fileID: 100100000, guid: e1b5ad53462b6ff47bb8308254c08e5b, type: 3}
+--- !u!1 &1254310745 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8042866094931326325, guid: 41295caebcf60074089875efdf98a75e, type: 3}
+  m_PrefabInstance: {fileID: 3975975129019968716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!19719996 &1254310749
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254310745}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &1264494604
 GameObject:
   m_ObjectHideFlags: 0
@@ -7247,10 +7329,21 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8623710493901707833, guid: e3bbcac7c33799740bd11331ecc3a9ff, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8623710493901707833, guid: e3bbcac7c33799740bd11331ecc3a9ff, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8623710493901707833, guid: e3bbcac7c33799740bd11331ecc3a9ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 217404378}
   m_SourcePrefab: {fileID: 100100000, guid: e3bbcac7c33799740bd11331ecc3a9ff, type: 3}
 --- !u!212 &3597040906488950633
 SpriteRenderer:
@@ -10772,10 +10865,21 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[258].second.m_TileSpriteIndex
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 8042866094931326325, guid: 41295caebcf60074089875efdf98a75e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042866094931326325, guid: 41295caebcf60074089875efdf98a75e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8042866094931326325, guid: 41295caebcf60074089875efdf98a75e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1254310749}
   m_SourcePrefab: {fileID: 100100000, guid: 41295caebcf60074089875efdf98a75e, type: 3}
 --- !u!4 &3997766860209676413
 Transform:
