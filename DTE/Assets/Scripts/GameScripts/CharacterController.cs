@@ -8,16 +8,20 @@ public class CharacterController : MonoBehaviour
     {
         IDLE, LEFT, RIGHT, CLIMB, JUMP, LANDING,
     }
-    [SerializeField] private float jumpSpeed = 7f; // 점프 속도
-    [SerializeField] private float speed = 10f;    // 이동 속도
+    [SerializeField] private float jumpSpeed = 7f;      // 점프 속도
+    [SerializeField] private float speed = 10f;         // 이동 속도
     [SerializeField] private float jumpHeight = 2.5f;   // 점프 높이
     [SerializeField] private float landingSpeed = -15f; // 착지 속도
-    [SerializeField] private float flyingTime = 2f; // 착지 속도
-    private Rigidbody2D rb;                   // 리지드바디
-    private bool isJump = false;                  // 점프 상태
-    private bool isLadder = false;                // 사다리에 있는지 여부
-    public STATE state;                        // 현재상태
-    private float startHeight;                 // 점프시작 위치
+    [SerializeField] private float flyingTime = 2f;     // 착지 속도
+    private Rigidbody2D rb;                             // 리지드바디
+    private bool isJump = false;                        // 점프 상태
+    private bool isLadder = false;                      // 사다리에 있는지 여부
+    private float startHeight;                          // 점프시작 위치
+    public STATE state;                                 // 현재상태
+
+
+
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();

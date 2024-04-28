@@ -355,7 +355,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
+  m_LocalScale: {x: 2.8012502, y: 2.8012502, z: 2.8012502}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1981965108}
@@ -2542,6 +2542,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325129374}
   m_CullTransparentMesh: 1
+--- !u!1 &1468666972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1468666974}
+  - component: {fileID: 1468666973}
+  m_Layer: 0
+  m_Name: SelectStageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1468666973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468666972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee1b8a72a439054b88d55443a5e874c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectStageText: {fileID: 209062549}
+  layerHolder: {fileID: 1981965109}
+--- !u!4 &1468666974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468666972}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5851328, y: -0.81014955, z: 0.53533757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1763489512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3021,6 +3067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1981965108}
+  - component: {fileID: 1981965109}
   m_Layer: 0
   m_Name: BackGround
   m_TagString: Untagged
@@ -3050,6 +3097,18 @@ Transform:
   - {fileID: 1763489513}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1981965109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981965107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fb3416b39e8744cb98b76dce30f3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2048735059
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,5 +3526,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 887321482}
   - {fileID: 186803364}
+  - {fileID: 1468666974}
   - {fileID: 1981965108}
   - {fileID: 888874275}

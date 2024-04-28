@@ -1,16 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BrokenBlock
+    - BreakBlock
+    - BreakBlockHolder
     - ButtonHolder
     - CameraController
-    - ChangeActive
     - CharacterController
     - DieCanversController
+    - DropThron
+    - DropThronHolder
+    - GameManager
+    - LayerHolder
     - ObstacleController
     - ParallaxScroll
     - PlayerState
     - ScenesManager
+    - SelectStageManager
     - SelectStageText
     - Stage
     - TextUpScale
@@ -111,6 +116,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 66
@@ -128,41 +135,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 16668}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 16738}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 16848}
+      Script: {instanceID: 1776}
     - Class: 114
-      Script: {instanceID: 16910}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 17050}
+      Script: {instanceID: 1978}
     - Class: 114
-      Script: {instanceID: 17124}
+      Script: {instanceID: 2100}
     - Class: 114
-      Script: {instanceID: 17498}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 17582}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 17606}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 17614}
+      Script: {instanceID: 2542}
     - Class: 114
-      Script: {instanceID: 17644}
+      Script: {instanceID: 2572}
     - Class: 114
-      Script: {instanceID: 17780}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 17810}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 18008}
+      Script: {instanceID: 2934}
     - Class: 114
-      Script: {instanceID: 18038}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 18108}
+      Script: {instanceID: 2984}
     - Class: 114
-      Script: {instanceID: 18136}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 18194}
+      Script: {instanceID: 3066}
+    - Class: 114
+      Script: {instanceID: 3124}
+    - Class: 114
+      Script: {instanceID: 42010}
+    - Class: 114
+      Script: {instanceID: 103796}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -207,29 +220,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16636}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 16668}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 16750}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 16910}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 17016}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 17498}
+      Script: {instanceID: 2100}
     - Class: 114
-      Script: {instanceID: 17606}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 17644}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 17780}
+      Script: {instanceID: 2572}
     - Class: 114
-      Script: {instanceID: 17810}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 18008}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 18108}
+      Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 3014}
+    - Class: 114
+      Script: {instanceID: 3038}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -274,31 +291,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 16910}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 17050}
+      Script: {instanceID: 1978}
     - Class: 114
-      Script: {instanceID: 17186}
+      Script: {instanceID: 2100}
     - Class: 114
-      Script: {instanceID: 17316}
+      Script: {instanceID: 2114}
     - Class: 114
-      Script: {instanceID: 17498}
+      Script: {instanceID: 2244}
     - Class: 114
-      Script: {instanceID: 17530}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 17606}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 17644}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 17762}
+      Script: {instanceID: 2572}
     - Class: 114
-      Script: {instanceID: 17780}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 17810}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 18008}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 18084}
+      Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 3012}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -350,6 +369,12 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: 7ff38c04527ae37dfe207838d4f7f62f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BreakBlockHolder
+  - hash:
+      serializedVersion: 2
       Hash: 47ee34eb8b6021efa0289dbbb17a5a85
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -386,16 +411,16 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 4878e735441f4041539853759559c86f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: VerticalLayoutGroup
-  - hash:
-      serializedVersion: 2
       Hash: 53e329840e6d03aebec76623c3b054db
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
       Hash: 33f160a5c07e580c29aba2bd1e4db811
@@ -410,7 +435,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 42779a98b340cda061ee6c7fa1f96d32
+      Hash: a76bd29894b795bbf2e2979190d71f22
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DieCanversController
@@ -488,12 +513,6 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: c7e8e16cd3e723fda516d10c4077991b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ChangeActive
-  - hash:
-      serializedVersion: 2
       Hash: 333f536a1ac5ab4c5b98c7cd7a50dc29
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -504,6 +523,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 5e7677cb62150b4a8d1826b87b8b7f5b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LayerHolder
   - hash:
       serializedVersion: 2
       Hash: 0c6de72eaf8c1070da824268c4bfad9d
@@ -536,7 +561,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 80f95df75698467dcec98dde3ababe55
+      Hash: 783449ce389c6134f7013e3660404019
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ScenesManager
@@ -698,10 +723,16 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 956d2ac2a8628ecfa8e28534da21d5c6
+      Hash: a9fe7c804b64629617fed1882e2d94ba
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: BrokenBlock
+    className: BreakBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 14e877ee1c4587c3cdd09523db98fa01
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 672716ae97f6ddb615fa5ac3ec9da349
@@ -714,6 +745,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TextUpScale
+  - hash:
+      serializedVersion: 2
+      Hash: b8098dce7225776691c75314f4999d98
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SelectStageManager
   - hash:
       serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
@@ -756,9 +793,21 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 85d8f41ae6cf478560a592019851ad53
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DropThron
+  - hash:
+      serializedVersion: 2
+      Hash: 8ffbfaefe4a9ce0f343e4a10cdca05ef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DropThronHolder
   platform: 19
   scenePathNames:
   - Assets/Scenes/TitleScenes.unity
   - Assets/Scenes/StageSelect.unity
   - Assets/Scenes/Stage1.unity
-  playerPath: C:/Users/admin/Desktop/DTE_Real(nogit)/DTE/DTEBuild/DTE.exe
+  playerPath: "C:/Users/thswl/OneDrive/\uBC14\uD0D5 \uD654\uBA74/DTE Build/DTE.exe"

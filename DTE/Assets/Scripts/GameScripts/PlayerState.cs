@@ -15,6 +15,22 @@ public class PlayerState : CharacterStateManager
         ChangeState(new PlayerIdleState(this, animator));
     }
 
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.A))
+            ChangeState(new MovingState(this, animator, spriteRenderer, -1));
+        else if (Input.GetKey(KeyCode.D))
+            ChangeState(new MovingState(this, animator, spriteRenderer, 1));
+        else if (Input.GetKey(KeyCode.W) && isClimbing || isClimbing)
+            ChangeState(new ClimbingState(this, animator));
+        else if (Input.GetKey(KeyCode.Space))
+            ChangeState(new JumpingState(this, animator));
+        else
+            ChangeState(new PlayerIdleState(this, animator));
+
+    }
+
+
     private void OnTriggerEnter2D(Collider2D _other)
     {
         if (_other.CompareTag("Ladder"))
@@ -32,20 +48,7 @@ public class PlayerState : CharacterStateManager
         }
     }
 
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.A))
-            ChangeState(new MovingState(this, animator, spriteRenderer, -1));
-        else if (Input.GetKey(KeyCode.D))
-            ChangeState(new MovingState(this, animator, spriteRenderer, 1));
-        else if (Input.GetKey(KeyCode.W) && isClimbing || isClimbing)
-            ChangeState(new ClimbingState(this, animator));
-        else if (Input.GetKey(KeyCode.Space))
-            ChangeState(new JumpingState(this, animator));
-        else
-            ChangeState(new PlayerIdleState(this, animator));
 
-    }
 }
 
 public class PlayerIdleState : ICharacterState

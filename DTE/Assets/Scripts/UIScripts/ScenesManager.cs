@@ -5,17 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class ScenesManager : MonoBehaviour
 {
+    [Header("배경화면 관리")]
     [SerializeField] private GameObject backGroundSun = null;
     [SerializeField] private GameObject backGroundMoon = null;
-
+    [SerializeField] private LayerHolder[] layerHolders = null;
+    [Space(10f)]
+    [Header("타이틀 텍스트 관리")]
+    [SerializeField] private TitleTextUI titleTextUI = null;
+    [Space(10f)]
+    [Header("타이틀 프레스 텍스트 관리")]
+    [SerializeField] private TextUpScale textUpScale = null;
+    // 0 = 문 , 1 = 선
     private bool isWeather;
-
-    private void Awake()
-    {
-        // Scene이 로드될 때 해당 GameObject를 탐색합니다.
-        backGroundMoon = GameObject.FindWithTag("BackGroundMoon");
-        backGroundSun = GameObject.FindWithTag("BackGroundSun");
-    }
 
     private void Start()
     {
@@ -35,6 +36,18 @@ public class ScenesManager : MonoBehaviour
 
     private void Update()
     {
+        textUpScale.TextScaleUpDown();
+        titleTextUI.TitleDown();
+
+
+        if (isWeather)
+        {
+            layerHolders[1].MovingBackGround();
+        }
+        else
+        {
+            layerHolders[0].MovingBackGround();
+        }
         // 스페이스 키를 누르면 다음 씬으로 이동합니다.
         if (Input.GetKeyDown(KeyCode.Space))
         {

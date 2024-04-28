@@ -582,6 +582,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429115832}
+  - component: {fileID: 429115833}
   m_Layer: 0
   m_Name: BackGround_Sun
   m_TagString: BackGroundSun
@@ -614,6 +615,18 @@ Transform:
   - {fileID: 751922914}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &429115833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429115831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fb3416b39e8744cb98b76dce30f3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &445350347
 GameObject:
   m_ObjectHideFlags: 0
@@ -2791,6 +2804,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backGroundSun: {fileID: 429115831}
   backGroundMoon: {fileID: 1944130849}
+  layerHolders:
+  - {fileID: 429115833}
+  - {fileID: 1944130851}
+  titleTextUI: {fileID: 1296398656}
+  textUpScale: {fileID: 20204012}
 --- !u!1 &1944130849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2800,6 +2818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1944130850}
+  - component: {fileID: 1944130851}
   m_Layer: 0
   m_Name: BackGround_Moon
   m_TagString: BackGroundMoon
@@ -2832,13 +2851,25 @@ Transform:
   - {fileID: 727250843}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1944130851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944130849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fb3416b39e8744cb98b76dce30f3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1055472628}
+  - {fileID: 1842132419}
   - {fileID: 898766602}
   - {fileID: 1015241831}
-  - {fileID: 1842132419}
   - {fileID: 429115832}
   - {fileID: 1944130850}

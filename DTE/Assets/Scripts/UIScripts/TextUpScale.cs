@@ -8,7 +8,7 @@ public class TextUpScale : MonoBehaviour
     private float transSize = 0.5f;
     private bool isScalingUp = true;
 
-    private void Update()
+    public void TextScaleUpDown()
     {
         // 크기가 최대 크기에 도달하면 축소 상태로 변경
         if (defaultTransSize >= maxSize)

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private float cameraSpeed = 5.0f; // 카메라 이동 속도
-    [SerializeField] private float xMinLimit = -21.0f; // X 좌표 최소 제한
-    [SerializeField] private float xMaxLimit = 21.3f; // X 좌표 최대 제한
-    [SerializeField] private float yMinLimit = -15.0f; // Y 좌표 최소 제한
-    [SerializeField] private float yMaxLimit = 15.0f; // Y 좌표 최대 제한
+    [SerializeField] private float cameraSpeed; // 카메라 이동 속도
+    [SerializeField] private float xMinLimit; // X 좌표 최소 제한
+    [SerializeField] private float xMaxLimit; // X 좌표 최대 제한
+    [SerializeField] private float yMinLimit; // Y 좌표 최소 제한
+    [SerializeField] private float yMaxLimit; // Y 좌표 최대 제한
 
     [SerializeField] private GameObject player; // 플레이어 오브젝트
 
-    private void Update()
+    public void CameraMoving()
     {
         // 플레이어를 향한 방향 벡터 계산
         Vector3 dir = player.transform.position - this.transform.position;
