@@ -14,7 +14,6 @@ public class DropThronHolder : MonoBehaviour
     private void Start()
     {
         for(int i = 0; i < dropThrons.Length; i++) {
-            Debug.Log(dropThrons[i]);
         }
     }
 

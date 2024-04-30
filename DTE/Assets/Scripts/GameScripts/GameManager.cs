@@ -28,6 +28,9 @@ public class GameManager : MonoBehaviour
     [Header("사망씬 오브젝트")]
     [SerializeField] private DieCanversController dieCanversController;
     [Space(5f)]
+    [Header("액체 오브젝트")]
+    [SerializeField] LiquidHolder liquidHolder;
+    [Space(5f)]
     [Header("뒷 배경 움직임")]
     [SerializeField] private LayerHolder[] layerHolders;
     [Space(5f)]
@@ -46,12 +49,11 @@ public class GameManager : MonoBehaviour
     private void FixedUpdate()
     {
         breakBlockHolder.ChangeSpeed(breakBlockDropSpeed);
-        Debug.Log(breakBlockDropSpeed);
         dropThronHolder.ChangeGravity(thronDropSpeed);
-        Debug.Log(thronDropSpeed);
     }
     private void Update()
     {
+        dieCanversController.TitleOn();
         //떨어지는 가시
         dropThronHolder.MovingThron();
         //카메라 움직임
@@ -71,12 +73,13 @@ public class GameManager : MonoBehaviour
             hotBackGround.SetActive(true);
             iceBackGround.SetActive(false);
             iceActive.SetActive(false);
+
             hotActive.SetActive(true);
         }
         //사망시 UI 내려옴
         if (isDead)
         {
-            dieCanversController.ConversActive();
+            dieCanversController.ConversActive(); 
         }
         //임시 날씨 변경
         if (Input.GetMouseButtonDown(0))
@@ -104,6 +107,7 @@ public class GameManager : MonoBehaviour
         {
             breakBlockHolder.ChangeHotWeather();
             dropThronHolder.ChangeHotWeather();
+            liquidHolder.ChangeHotWeather();
             weather = false;
             for (int i = 0; i < rockHolder.Length; i++)
             {
@@ -114,6 +118,7 @@ public class GameManager : MonoBehaviour
         {
             breakBlockHolder.ChangeColdWeather();
             dropThronHolder.ChangeColdWeather();
+            liquidHolder.ChangeColdWeather();
             weather = true;
             for (int i = 0; i < rockHolder.Length; i++)
             {

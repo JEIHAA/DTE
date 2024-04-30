@@ -14,6 +14,7 @@ TagManager:
   - BreakBlock
   - Thron
   - Rock
+  - Cloud
   layers:
   - Default
   - TransparentFX

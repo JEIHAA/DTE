@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class DieCanversController : MonoBehaviour
 {
+    [SerializeField] private TitleTextUI titleText;
     [SerializeField] private TMP_Text text;
     [SerializeField] private Image image;
     [SerializeField] private Button retryButton;
@@ -30,6 +31,11 @@ public class DieCanversController : MonoBehaviour
     {
         //현재씬을 리로드
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void TitleOn()
+    {
+        titleText.TitleDown();
     }
 }
 
