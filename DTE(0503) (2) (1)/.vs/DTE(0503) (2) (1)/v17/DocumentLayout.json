@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|c:\\users\\ysysy\\downloads\\dte(0503) (2) (1)\\assets\\scripts\\gamescripts\\monsterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\monsterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\characterstatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\characterstatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\rock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\rock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\playerinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\playerinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\obstaclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\obstaclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\monstertracktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\monstertracktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\monsterattacktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\monsterattacktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\liquidholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\liquidholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\lava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\lava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\keyscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\keyscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\interactiveobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\interactiveobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\interactivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\interactivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\dropthron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\dropthron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\assets\\scripts\\gamescripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C90C924-557E-BD2B-F0EC-E6D842EA0840}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObstacleController.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\ObstacleController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\ObstacleController.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\ObstacleController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\ObstacleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:02.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonsterTrackTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\MonsterTrackTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\MonsterTrackTrigger.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\MonsterTrackTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\MonsterTrackTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:01.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MonsterState.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\MonsterState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\MonsterState.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\MonsterState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\MonsterState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:00.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MonsterAttackTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\MonsterAttackTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\MonsterAttackTrigger.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\MonsterAttackTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\MonsterAttackTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:00.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CharacterStateManager.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\CharacterStateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\CharacterStateManager.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\CharacterStateManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\CharacterStateManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:54.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LiquidHolder.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:59.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Lava.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Lava.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Lava.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Lava.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Lava.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:59.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KeyScripts.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:58.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "ViewState": "AQIAABgBAAAAAAAAAAAxwCIBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T15:46:44.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerInformation.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\PlayerInformation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\PlayerInformation.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\PlayerInformation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\PlayerInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:03.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\PlayerState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\PlayerState.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\PlayerState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\PlayerState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:03.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rock.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Rock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Rock.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Rock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Rock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:04.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Water.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Water.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Water.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Water.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Water.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:41:04.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InteractiveManager.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:57.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:56.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Exit.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Exit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Exit.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\Exit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Exit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:55.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DropThron.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\DropThron.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\DropThron.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\DropThron.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\DropThron.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:55.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:53.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ButtonManager.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T16:40:52.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InteractiveObject.cs",
+              "DocumentMoniker": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\InteractiveObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\InteractiveObject.cs",
+              "ToolTip": "C:\\Users\\ysysy\\Downloads\\DTE(0503) (2) (1)\\Assets\\Scripts\\GameScripts\\InteractiveObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\InteractiveObject.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAASwGIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T15:47:07.552Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\gamescripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\uiscripts\\diecanverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\diecanverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|c:\\users\\thswl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\real dte\\assets\\scripts\\uiscripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\uiscripts\\selectstagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\selectstagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\uiscripts\\stage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\stage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\gamescripts\\liquidholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\liquidholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\gamescripts\\lava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\lava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\gamescripts\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|c:\\users\\thswl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\real dte\\assets\\scripts\\uiscripts\\ingameuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\ingameuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\gamescripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\uiscripts\\buttonholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\buttonholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\gamescripts\\keyscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\keyscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\gamescripts\\interactivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\interactivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\uiscripts\\titletextui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\titletextui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\uiscripts\\layerholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\layerholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\assets\\scripts\\uiscripts\\parallaxscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3251CB-F5F1-F38F-AEDD-6809CC4880D4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\parallaxscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\Menu.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\Menu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:40:12.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InGameUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\InGameUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\InGameUIManager.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\InGameUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\InGameUIManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:32:56.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ButtonHolder.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\ButtonHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\ButtonHolder.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\ButtonHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\ButtonHolder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:22:20.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\GameManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAD4vxMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T01:15:13.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LiquidHolder.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\LiquidHolder.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA9wCEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:13:07.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stage.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\Stage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\Stage.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\Stage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\Stage.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwC0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:41:39.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectStageManager.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\SelectStageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\SelectStageManager.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\SelectStageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\SelectStageManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:41:21.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KeyScripts.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\KeyScripts.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA3wDUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:34:35.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\CharacterController.cs",
+              "ViewState": "AQIAAIQBAAAAAAAAAAAywHsBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:22:43.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lava.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\Lava.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Lava.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\Lava.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Lava.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T01:55:17.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DieCanversController.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\DieCanversController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\DieCanversController.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\DieCanversController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\DieCanversController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T01:15:05.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ButtonManager.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\ButtonManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:22:38.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TitleTextUI.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\TitleTextUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\TitleTextUI.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\TitleTextUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\TitleTextUI.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T01:14:56.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InteractiveManager.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\InteractiveManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T01:14:10.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ParallaxScroll.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\ParallaxScroll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\ParallaxScroll.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\ParallaxScroll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\ParallaxScroll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:23:04.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LayerHolder.cs",
+              "DocumentMoniker": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\LayerHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\LayerHolder.cs",
+              "ToolTip": "C:\\Users\\thswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Real DTE\\Assets\\Scripts\\UIScripts\\LayerHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\LayerHolder.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:22:53.081Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
